@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Common
 {
-    internal class Vlad
+    public class Vlad
     {
+        public string Name { get; set; } = "Vlad";
+        public int Age { get; set; } = 20;
     }
 }
